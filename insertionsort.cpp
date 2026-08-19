@@ -10,7 +10,7 @@ int main() {
     
     for (int i = 1; i < n; i++) {
         int j = i;
-        while (j >= 1 && a[j-1] > a[j]) {
+        while (j >0 && a[j-1] > a[j]) {
             int temp = a[j];
             a[j] = a[j-1];
             a[j-1] = temp;
